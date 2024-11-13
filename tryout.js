@@ -1,2 +1,3 @@
 var hamit= 10;
-console.log(hamit)
+console.log(hamit);
+naber  jee
