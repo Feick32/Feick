@@ -1,3 +1,8 @@
-var hamit= 10;
-console.log(hamit);
-naber  jee
+let mami = 12;
+
+
+
+while(mami >5){
+    console.log(mami)
+    mami--;
+}
