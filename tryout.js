@@ -1,24 +1,12 @@
-let dizi = [6,3,2,2]
-let yenidizi = []
-dizi.map((value,index)=>{
-    let newsayi = value *2;
-    yenidizi.push(newsayi)
-})
-console.log(yenidizi)
-yenidizi.push(19)
-yenidizi.filter(sayi => sayi %2 == 0)
-console.log(yenidizi)
 let dizike= ['hamit' , 'yavuzi' , 'faruki']
 let newdizike= dizike.filter((value,index) =>{
-    for(let i = 0; i<value.length; i++){
-        if(value[i] == 'i'){
-            let yenekelime= value.
-        } 
-    }
-})
+
+}) 
 
 
-
+//dizike deki , her dizideki karakterinde, i harfi varmi diye kontrol edilsin ve eger var ise o dizideki elemandan o i cikartilsin
+//1.soru splice sadece dizi deki elemanlarimi kontrol ediyor yoksa bir dizideki elemanin icindeki harflerede uygulama yapabiliyormu? cevap : sadece dizideki elemanlar uzerinde islem yapabilir
+//2.soru split kullanilarak yapilabilirmi? Value split yapilsa sonra yeni bir objeye atansa o harf ve eger o harf i ise atanmasa falan?
 
 
 
