@@ -1,7 +1,72 @@
-let dizike= ['hamit' , 'yavuzi' , 'faruki']
-let newdizike= dizike.filter((value,index) =>{
+/* let dizike= ['hamit' , 'yavuzi' , 'faruki']
+let yenidizi = []
+for(let i = 0 ; i<dizike.length;i++){
+let stringke= '';
+    for(let a = 0; a<dizike[i].length;a++){
+      if(dizike[i][a] !== 'i'){
+          stringke += dizike[i][a];
+      }
+   }  
+   yenidizi.push(stringke)
+}
+console.log(yenidizi) */
 
-}) 
+
+
+// Başlangıç dizisi
+let originalArray = ["imagine", "inspiration", "hello", "world"];
+
+// "i" harflerini çıkararak yeni bir dizi oluşturuyoruz
+let modifiedArray = originalArray.map(function(str) {
+  let newStr = "";
+  
+  // Her bir karakteri kontrol edip "i" harflerini atlıyoruz
+  [...str].map(function(char) {
+    if (char !== "i") {
+      newStr += char;
+    }
+  });
+  
+  return newStr;
+});
+
+console.log(modifiedArray);
+
+
+/* dizi.map((value,index) =>{
+    let newstring = ''
+    for(let num of value){
+        
+        if(num !== 'i'){
+            newstring += num;
+        }
+      
+    }
+    yenike.push(newstring)
+}) */
+
+   /*  for(let num of dizi){
+        let yenike= '';
+    for(let nume of num){
+     if(nume !== 'i'){
+    yenike += nume;
+     }
+        }
+        yenikee.push(yenike)
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //dizike deki , her dizideki karakterinde, i harfi varmi diye kontrol edilsin ve eger var ise o dizideki elemandan o i cikartilsin
