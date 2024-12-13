@@ -33,7 +33,7 @@ let modifiedArray = originalArray.map(function(str) {
 console.log(modifiedArray);
 
 
-/* dizi.map((value,index) =>{
+dizi.map((value,index) =>{
     let newstring = ''
     for(let num of value){
         
@@ -43,7 +43,7 @@ console.log(modifiedArray);
       
     }
     yenike.push(newstring)
-}) */
+}) 
 
    /*  for(let num of dizi){
         let yenike= '';
