@@ -1,4 +1,4 @@
-/* let dizike= ['hamit' , 'yavuzi' , 'faruki']
+ let dizike= ['hamit' , 'yavuzi' , 'faruki']
 let yenidizi = []
 for(let i = 0 ; i<dizike.length;i++){
 let stringke= '';
@@ -9,7 +9,7 @@ let stringke= '';
    }  
    yenidizi.push(stringke)
 }
-console.log(yenidizi) */
+console.log(yenidizi) 
 
 
 
@@ -33,7 +33,7 @@ let modifiedArray = originalArray.map(function(str) {
 console.log(modifiedArray);
 
 
-/* dizi.map((value,index) =>{
+dizi.map((value,index) =>{
     let newstring = ''
     for(let num of value){
         
@@ -43,9 +43,9 @@ console.log(modifiedArray);
       
     }
     yenike.push(newstring)
-}) */
+}) 
 
-   /*  for(let num of dizi){
+     for(let num of dizi){
         let yenike= '';
     for(let nume of num){
      if(nume !== 'i'){
@@ -53,7 +53,7 @@ console.log(modifiedArray);
      }
         }
         yenikee.push(yenike)
-    } */
+    } 
 
 
 
