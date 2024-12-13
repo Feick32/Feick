@@ -45,7 +45,7 @@ dizi.map((value,index) =>{
     yenike.push(newstring)
 }) 
 
-   /*  for(let num of dizi){
+    for(let num of dizi){
         let yenike= '';
     for(let nume of num){
      if(nume !== 'i'){
@@ -53,7 +53,7 @@ dizi.map((value,index) =>{
      }
         }
         yenikee.push(yenike)
-    } */
+    } 
 
 
 
