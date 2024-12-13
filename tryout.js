@@ -43,7 +43,7 @@ console.log(modifiedArray);
       
     }
     yenike.push(newstring)
-}) */
+}) 
 
    /*  for(let num of dizi){
         let yenike= '';
@@ -53,7 +53,7 @@ console.log(modifiedArray);
      }
         }
         yenikee.push(yenike)
-    } */
+    } 
 
 
 
